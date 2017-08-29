@@ -1,9 +1,6 @@
 import vorpal from 'vorpal'
 
-import { greeting } from 'greeting'
-import cli          from './cli'
-
-console.log(greeting())
+import cli    from './cli'
 
 // start the cli
 vorpal()
